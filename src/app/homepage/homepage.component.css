@@ -1,0 +1,104 @@
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the content box */
+  .content {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the header */
+  h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the introductory text */
+  p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the topics section */
+  .topics {
+    margin-top: 20px;
+  }
+  
+  .topics h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .topics ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .topics li {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .topics a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  .topics a:hover {
+    color: #0056b3;
+  }
+  
+  /* Style for the About Us section */
+  .about {
+    margin-top: 20px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Style for the Contact Us section */
+  .contact {
+    margin-top: 20px;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+  }
+  
+  .contact a:hover {
+    color: #0056b3;
+  }
+  
