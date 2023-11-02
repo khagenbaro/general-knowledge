@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+
+  li:nth-child(odd) {
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+
+  li:nth-child(even) {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+
+  li::before {
+    content: "Q: ";
+    font-weight: bold;
+  }
+
+  li::after {
+    content: "Answer: " attr(data-answer);
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
