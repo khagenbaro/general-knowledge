@@ -1,0 +1,32 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Style the copyright notice */
+footer .copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Add hover effect for the copyright notice */
+footer .copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .copyright a:hover {
+    text-decoration: underline;
+}

@@ -8,6 +8,10 @@ import { FirstinassamComponent } from './firstinassam/firstinassam.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponent } from './about/about.component';
+import { FirstInIndiaComponent } from './first-in-india/first-in-india.component';
+import { AssamGeopraphyComponent } from './assam-geopraphy/assam-geopraphy.component';
+import { IndiaGeopraphyComponent } from './india-geopraphy/india-geopraphy.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { AboutComponent } from './about/about.component';
     FirstinassamComponent,
     HomepageComponent,
     ContactUsComponent,
-    AboutComponent
+    AboutComponent,
+    FirstInIndiaComponent,
+    AssamGeopraphyComponent,
+    IndiaGeopraphyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

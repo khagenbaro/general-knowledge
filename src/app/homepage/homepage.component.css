@@ -101,4 +101,25 @@
   .contact a:hover {
     color: #0056b3;
   }
-  
+  .testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.testimonial h3 {
+    font-size: 18px;
+}
+
+.why-prefer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.why-prefer h2 {
+    font-size: 20px;
+    color: #333;
+}

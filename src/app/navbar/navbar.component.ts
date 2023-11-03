@@ -5,6 +5,12 @@ import { Component } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.css']
 })
+
 export class NavbarComponent {
+  showAssamMenu: boolean = false;
+
+  toggleAssamMenu() {
+    this.showAssamMenu = !this.showAssamMenu;
+  }
 
 }
